@@ -100,7 +100,7 @@ def high_alch():
     print('alching item')
 
 
-def high_aclh_loop(vol, bool):
+def high_alch_loop(vol, bool):
     t = vol
     exp = bool
     while t > 0:
@@ -206,7 +206,7 @@ def refreshing():
 
 cycles = 2
 while cycles > 0:
-    high_aclh_loop(1000, False)
+    high_alch_loop(1000, False)
     refreshing()
     cycles-=1
 
